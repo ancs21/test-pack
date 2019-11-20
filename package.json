@@ -4,5 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "description": "Test package github",
-  "publish": "npm publish"
+  "publish": "npm publish",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ancs21/test-pack.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@ancs21"
+  }
 }
